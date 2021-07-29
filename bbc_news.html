@@ -129,16 +129,77 @@ body{
   border-bottom: 6px white solid;
 }
 #news1{
-  background-color: blue;
-  height:100px;
-  width: 49%;
+  width: 59%;
   float:left;
 }
+#news1 .text{
+  float: left;
+  width: 38%;
+  color: black;
+  font-size: 27px;
+  font-weight: bolder;
+  line-height:30px;
+  margin-top: 10px;
+  }
+  #news1 .text h2{
+    margin-right: 30px;
+  }
+  #news1 .text p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+  }
+#news1 .img{
+  float: right;
+  width: 60%;
+  margin-top: 10px;
+}
+#news1 .img img{
+  max-width: 100%;
+  max-height: 100%;
+}
 #news2{
-  background-color: blue;
-  height:100px;
-  width:49%;
-  float:right;
+  width:19%;
+  float:left;
+  margin-left: 10px;
+  color: black;
+}
+#news2 img{
+  max-height: 40%;
+  max-width: 100%;
+  margin-top: 10px;
+}
+#news2 h2{
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+}
+#news2 p{
+  margin-top: 8px;
+  line-height: 20px;
+}
+#news3{
+  width:19%;
+  float:left;
+  margin-left: 10px;
+  color: black;
+}
+#news3 img{
+  max-height: 40%;
+  max-width: 100%;
+  margin-top: 10px;
+}
+#news3 h2{
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+}
+#news3 p{
+  margin-top: 8px;
+  line-height: 20px;
 }
     </style>
   </head>
@@ -183,12 +244,31 @@ body{
       </div>
     </div>
     <div class="maindiv">
-      <div class="" id="news1">
-
-      </div>
-      <div class="" id="news2">
-
-      </div>
+      <a href="">
+        <div class="" id="news1">
+          <div class="text">
+            <h2>Tunisia's PM sacked after violent Covid protests:</h2>
+            <p>The President says he is taking over, after a virus outbreak reignites political and economic unrest.</p>
+          </div>
+          <div class="img">
+            <img src="img/tunish_protest.png" alt="">
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div class="mininews" id="news2">
+          <img src="img/iran_water_protests.png" alt="" width="100%">
+          <h2>Deadly street protests over Iran water shortages:</h2>
+          <p>Khuzestan is one of the country's hottest regions, where temperatures can reach 50C.</p>
+        </div>
+      </a>
+      <a href="">
+        <div class="mininews" id="news3">
+          <img src="img/afghanisthan_casualties.png" alt="" width="100%">
+          <h2>Civilian casualties in Afghanistan at record level:</h2>
+          <p>More than 1600 civilians have been killed so far, and the UN expects a future rise.</p>
+        </div>
+      </a>
     </div>
   </body>
 </html>
